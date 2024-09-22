@@ -194,7 +194,7 @@ const Gfx mario_cap_seg3_dl_03022ED8_metal[] = {
     gsDPSetCombineLERP(TEXEL0, 0, SHADE, TEXEL1, TEXEL0, 0, ENVIRONMENT, 0, TEXEL0, 0, SHADE, TEXEL1, TEXEL0, 0, ENVIRONMENT, 0),
     gsSPTexture(65535, 65535, 0, 0, 1),
     gsSPLight(&mario_cap_black_lights_group.l, 1),
-    gsSPCopyLightEXT(2, 15),
+    gsSPCopyLightEXT(2, 19),
     gsSPEndDisplayList(),
 };
 
